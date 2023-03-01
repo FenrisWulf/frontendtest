@@ -1,0 +1,14 @@
+Assumptions:
+I made the following assumptions based on the requirements, but I can change any of these if I misunderstood what was specified:
+* When a second square is highlighted the first square remains highlighted.
+* When a square is clicked twice, the second click is added to the sidebar tracker and the square remains highlighted.
+* The chessboard takes the entire width and height of the screen in the mobile view, so you need to scroll to see the sidebar.
+* The chessboard will always be 8x8 and will be not configurable.
+* One of the instrucitons states "On desktop devices the sidebar should be positioned to the right of the sidebar." I assume that this meant to the right of the chessboard.
+
+Improvements:
+I made this quickly and optimized for what I could finish faster. If I was to make this more production-worthy I would do the following:
+* Add tests for the components, namely that each component renders and that the click action gets called correctly.
+* Use TypeScript, eslint, prettier, etc.
+* Minor graphical things
+* There are some magic numbers that should be in constants variables.
